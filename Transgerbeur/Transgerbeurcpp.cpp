@@ -35,7 +35,7 @@ int main()
 	casier[0] = c1;
 	casier[2] = c2;
 
-
+	 
 	
 
 	return(0);
