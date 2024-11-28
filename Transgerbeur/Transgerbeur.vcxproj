@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FoncTP5.cpp" />
     <ClCompile Include="Transgerbeurcpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FonctTP5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
