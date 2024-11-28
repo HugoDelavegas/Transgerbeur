@@ -9,7 +9,7 @@ int main()
 {
 	cout << "\t\t\t\t\t----Transgerbeur----";
 	SRoll  ro1;
-	cout << "Selectionnez la longueur des rouleaux: ";
+	cout << "\nSelectionnez la longueur des rouleaux: ";
 	cin >> ro1.lenght;
 	ro1.number=9;
 	Spalette pa1;
@@ -35,8 +35,8 @@ int main()
 	casier[0] = c1;
 	casier[2] = c2;
 
-	 
-	
+	cout <<"\nTaille du casier 1: "<<sizeof(c1) << "\nTaille du casier 2: " << sizeof(c2) << "\nTaille du contenu: " << sizeof(Content) << "\nTaille du contenu: " << sizeof(UContent);
+	cout << "\nTaille des Palettes: " << sizeof(Spalette) << "\nTaille des rouleaux: " << sizeof(SRoll);
 
 	return(0);
 }
