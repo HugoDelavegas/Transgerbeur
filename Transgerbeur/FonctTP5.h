@@ -6,7 +6,7 @@
 struct Spalette
 {
 	int weight;
-	char* reference[20];
+	char reference[20];
 	
 };
 struct SRoll
